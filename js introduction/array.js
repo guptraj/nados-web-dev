@@ -40,3 +40,12 @@ console.log(cars2)
 
 //length of an array
 console.log(cars2.length)
+
+    //multidimentional array
+let matrix = [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9]
+]
+    console.log(matrix[0][1]) // to print specific element
+    console.log(matrix[0])    // to print specific row
