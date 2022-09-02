@@ -1,4 +1,4 @@
-// declaring string
+  // declaring string
 let str = 'pepcoding'
 
 // printing string
