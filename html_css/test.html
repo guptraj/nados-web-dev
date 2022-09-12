@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* css seletors */
+
+        /* element selector */
+        h1{
+            color: aqua;
+        }
+
+        /* descendant selector */
+        div li{
+            color:blueviolet
+        }
+
+        /* children selector */
+        div>h1>span{
+            color: brown;
+        }
+
+        /* class selectors */
+        .class1{
+            color: chartreuse;
+        }
+
+        .class2{
+            color: crimson;
+        }
+
+        /* multiple classes */
+        .m1.m2{
+            color
+        }
+    </style>
+</head>
+<body>
+    <!-- element selector -->
+    <h1 style="color: red;">hiii! welcome to this site!!!</h1>  <!--inline selector-->
+    <h1>hiii! welcome to this site!!!</h1>
+    
+    <!-- descendant selector -->
+    <div>
+        <ol>
+            <li>item 1 </li>
+            <li>item 2 </li>
+            <li>item 3 </li>
+        </ol>
+    </div>
+
+    <ol>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+    </ol>
+
+    <!-- children selector -->
+    <div>
+        <h1>
+            <span>hello welcome</span>
+        </h1>
+    </div>
+
+    <div>
+         <span>
+            <h1>
+                <span>hello welcome</span>
+            </h1>
+        </span>
+        
+    </div>
+
+    <!-- class selector -->
+    <p class="class1">hello!</p>
+    <p class="class2">hello!</p>
+    <p>hello!</p>
+    <p>hello!</p>
+
+    <!-- multiple classes -->
+    <p class="m1 m2"> hiii</p>
+    <p class="m1"> hiii</p>
+    <p class="m2">hiii</p>
+</body>
+</html>
